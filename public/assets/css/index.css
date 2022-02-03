@@ -1,0 +1,209 @@
+form button {
+  margin-top: 8px;
+  color: #FFFFFF;
+  background-color: #0095F6;
+  border-style: none;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#facebookButton {
+  border-style: none;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  color: #385185;
+}
+
+#facebookContainer span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#facebookContainer img {
+  width: 5%;
+  height: 5%;
+}
+
+#facebookContainer img {
+  width: 5%;
+  height: 5%;
+}
+
+.download_app {
+  text-align: center;
+  font-size: 14px;
+}
+.download_app img {
+  width: 40%;
+}
+
+.instagramLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 0;
+}
+.instagramLogo img {
+  width: 55%;
+}
+
+form input {
+  border: 1px solid #DBDBDB;
+  background-color: #FAFAFA;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+form input:focus {
+  outline: none;
+  border: 1px solid #A8A8A8;
+}
+
+.or {
+  text-align: center;
+  position: relative;
+  color: #8e8e8e;
+  margin-bottom: 20px;
+}
+.or p:before {
+  content: "";
+  background-color: #DBDBDB;
+  height: 5%;
+  position: absolute;
+  width: 30%;
+  top: 10px;
+  left: 35px;
+}
+.or p:after {
+  content: "";
+  background-color: #DBDBDB;
+  width: 30%;
+  position: absolute;
+  height: 5%;
+  top: 10px;
+  right: 35px;
+}
+
+#mobiles {
+  position: relative;
+}
+#mobiles #templateImg {
+  position: absolute;
+  top: 100px;
+  right: 63px;
+}
+@media (max-width: 880px) {
+  #mobiles img {
+    display: none;
+  }
+}
+
+body {
+  font-family: -apple-system, Helvetica, Arial, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.btnText {
+  font-weight: 550;
+  font-family: sans-serif;
+}
+
+.or p {
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+#facebookContainer span {
+  font-weight: 600;
+}
+
+#forgotPass {
+  text-align: center;
+  font-size: 12px;
+}
+#forgotPass a {
+  text-decoration: none;
+}
+
+.download {
+  text-align: center;
+  font-size: 14px;
+}
+
+footer {
+  font-size: 12px;
+  color: #A8A8A8;
+}
+footer a:visited {
+  color: #A8A8A8;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+  justify-self: flex-end;
+}
+footer .footer_row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.rightContainer {
+  width: 350px;
+}
+
+.formContainer {
+  background-color: #FFFFFF;
+  border: 1px solid #DBDBDB;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin: 0px 35px;
+}
+
+.register {
+  margin-top: 10px;
+  padding: 8px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 1px solid #DBDBDB;
+}
+.register a {
+  color: #0095F6;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+/*# sourceMappingURL=index.css.map */

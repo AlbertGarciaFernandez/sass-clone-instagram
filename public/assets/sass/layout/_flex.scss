@@ -1,0 +1,19 @@
+@use "../abstracts/"as a;
+
+body {
+    @include a.flex-column;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    @include a.flex-row;
+    justify-content: center;
+    width: 100%;
+    }
+
+.right-container {
+    @include a.flex-column;
+    width: 50%;
+}

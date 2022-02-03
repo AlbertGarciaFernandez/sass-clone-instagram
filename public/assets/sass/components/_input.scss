@@ -1,0 +1,16 @@
+@use "../abstracts/"as a;
+
+ form {
+     input {
+        border: 1px solid a.$gray;
+         background-color: a.$bg-color-default;
+         padding: 10px 5px;
+         border-radius: 3px;
+        }
+   
+        input:focus {
+            outline: none;
+            border: 1px solid a.$darkGray;
+        }
+   
+    }

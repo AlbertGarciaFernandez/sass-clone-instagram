@@ -1,0 +1,48 @@
+@use "../abstracts/"as a;
+
+ body {
+     font-family: a.$default-font-family;
+ }
+
+ .btnText {
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.or {
+    p {
+        font-size: small;
+    }
+}
+a {
+    text-decoration: none;
+}
+
+#facebookContainer {
+    span {
+        font-weight: 600;
+    }
+
+}
+#forgotPass {
+    text-align: center;
+    font-size: 12px;
+
+    a {
+        text-decoration: none;
+    }
+
+}
+.download {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    font-size: 12px;
+    color: a.$darkGray;
+
+    a:visited {
+        color: a.$darkGray;
+    }
+}

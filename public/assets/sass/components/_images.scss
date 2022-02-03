@@ -1,0 +1,30 @@
+@use "../abstracts/"as a;
+
+
+#facebookContainer {
+
+    img {
+        width: 5%;
+        height: 5%;
+    }
+}
+
+.download_app {
+    text-align: center;
+    font-size: 14px;
+
+    img {
+        width: 40%;
+    }
+}
+
+.instagramLogo {
+    @include a.flex-row;
+    justify-content: center;
+
+    padding: 30px 0;
+
+    img {
+        width: 55%;
+    }
+}
